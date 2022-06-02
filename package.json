@@ -1,0 +1,31 @@
+{
+  "name": "discovergy-ocpp-pm2-relay",
+  "version": "1.0.0",
+  "description": "MicroAction based on PM2 tx to start/stop EV charging on a OCPP 1.6 backend based on Smart Meter Readings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/discovergy-ocpp-pm2-relay.git"
+  },
+  "keywords": [
+    "discovergy",
+    "ocpp",
+    "pm2"
+  ],
+  "author": "STROMDAO GmbH <dev@stromdao.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/energychain/discovergy-ocpp-pm2-relay/issues"
+  },
+  "homepage": "https://github.com/energychain/discovergy-ocpp-pm2-relay#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "ocpp-rpc": "^1.5.1",
+    "tx2": "^1.0.5",
+    "ws": "^8.7.0"
+  }
+}
