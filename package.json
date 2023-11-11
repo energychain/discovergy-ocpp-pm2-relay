@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/energychain/discovergy-ocpp-pm2-relay#readme",
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.6.0",
     "dotenv": "^16.0.1",
     "ocpp-rpc": "^1.5.1",
     "tx2": "^1.0.5",
